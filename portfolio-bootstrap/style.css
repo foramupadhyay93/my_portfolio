@@ -1,0 +1,115 @@
+body {
+  box-sizing: border-box;
+}
+.primary-txt {
+  color: #b0ebf0;
+}
+.secondary-txt {
+  color: rgb(209 213 219 / var(--tw-text-opacity, 1)) !important;
+}
+.bg-stripe {
+  background-color: rgb(2 19 20);
+}
+.bg-light.bg-secondary {
+  background-color: rgb(209 213 219 / var(--tw-text-opacity, 1)) !important;
+}
+.btn.btn-custom {
+  background-color: #b0ebf0; 
+  font-size: 16px;
+}
+.btn:hover,
+.btn:active {
+    background-color: #6f9ea2 !important;
+    color: #212529 !important;
+}
+
+/* Navbar CSS */
+
+nav.navbar-custom {
+    .navbar-brand {
+        color: #b0ebf0;
+        font-size: 20px;
+    }
+    .nav-link {
+        color: rgb(209 213 219 / var(--tw-text-opacity, 1)) !important;
+        font-size: 16px;
+    }
+    .nav-link:hover, .nav-link:active {
+        color: #b0ebf0 !important;
+    }
+}
+
+/* Hero Section CSS */
+
+.hero-section {
+    background-image: linear-gradient(to right, rgba(5, 23, 26, 0.8), rgba(1, 28, 32, 0.8)), url('assets/hero-bg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.hero-section h1 {
+  font-size: 35px; 
+  margin-bottom: 30px;
+}
+.hero-section p {
+  font-size: 14px
+}
+
+/* Skill Section CSS */
+
+.skill-box {
+  background: linear-gradient(90deg,rgba(24, 33, 54, 1) 0%, rgba(6, 43, 46, 1) 100%, rgba(4, 35, 38, 1) 40%);
+  border-radius: 8px;
+  padding-top: 20px;
+  min-width: 130px;
+  max-width: 130px;
+  margin: 0 auto;
+}
+.skill-box p {
+  margin-top: 10px;
+}
+
+/* Projects Section CSS */
+
+.card.card-custom {
+  color: rgb(209 213 219 / var(--tw-text-opacity, 1)) !important;
+  background: linear-gradient(90deg,rgba(24, 33, 54, 1) 0%, rgba(6, 43, 46, 1) 100%, rgba(4, 35, 38, 1) 40%);
+}
+.card.card-custom .card-title {
+  color: #6f9ea2;
+  margin-bottom: 20px;
+}
+.card.card-custom img {
+  height: 200px;
+  margin-bottom: 10px;
+}
+.card.card-custom a {
+  color: rgb(209 213 219 / var(--tw-text-opacity, 1)) !important;
+  font-size: 16px;
+  text-decoration: none;
+}
+.card.card-custom a:hover , .card.card-custom a:active {
+  color: #b0ebf0 !important;
+}
+
+
+/* Contact Section CSS */
+
+.form-custom .form-control {
+    color: rgb(209 213 219 / var(--tw-text-opacity, 1)) !important;
+    background: linear-gradient(90deg,rgba(24, 33, 54, 1) 0%, rgba(6, 43, 46, 1) 100%, rgba(4, 35, 38, 1) 40%);
+}
+.form-custom .form-control::placeholder {
+    color: rgb(209 213 219 / var(--tw-text-opacity, 1)) !important;
+}
+
+/* Footer Section CSS */
+
+.social-wrapper i {
+    color: #b0ebf0;
+    font-size: 22px;
+}
+.social-wrapper a:hover i, .social-wrapper a:active i {
+  color: #6f9ea2 !important;
+}
+

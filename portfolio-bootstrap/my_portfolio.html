@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</head>
+<body class="bg-stripe">
+
+    <!-- 1. Header / Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom bg-stripe">
+        <div class="container">
+          <a class="navbar-brand" href="#">FORAM
+          </a>
+          <button class="navbar-toggler bg-light bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-lg-5 ms-0" href="#">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-lg-5 ms-0" href="#">Projects</a>
+              </li>
+              <li class="nav-item ms-lg-5 ms-0">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- 2. Hero Section --> 
+
+      <div class="container-fluid p-md-5 p-2 hero-section">
+        <div class="container text-center p-md-3 p-1">
+            <h1 class="fw-bold secondary-txt mt-3">Hi, I'm <span class="primary-txt">Foram Dalwadi</span></h1>
+            <h3 class="fw-bold secondary-txt lh-1 mb-3">Front-End Developer</h3>
+            <p class="secondary-txt mb-4">
+                HTML • CSS • Bootstrap • JS • Angular • React
+              </p>
+            <div class="mb-lg-3">
+                <button class="btn btn-custom" type="button">
+                    <i class="bi bi-download me-2"></i>Download Resume
+                </button>
+            </div>
+        </div>
+      </div>
+
+      <!-- 3. About Me Section -->
+ 
+      <div class="container px-5 px-md-0">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-7 py-5 text-center">
+                <h2 class="primary-txt mb-5">About Me</h2>
+                <p class="secondary-txt lh-lg">
+                    Front-end Developer with 6 years of experience specializing in
+                    building responsive and user-friendly web applications using HTML,
+                    CSS, Bootstrap, and Angular. Proven ability to collaborate with
+                    cross-functional teams to deliver high-quality solutions across
+                    diverse industry domains including Roadside Assistance and
+                    Healthcare. Adept at version control using GitHub and passionate
+                    about creating seamless digital experiences with clean, maintainable
+                    code.
+                </p>
+            </div>
+        </div>
+
+        <!-- 4. Technical Skills -->
+
+        <h2 class="primary-txt mb-5 text-center">What I do</h2>
+        <div class="d-grid column-gap-2" style="grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));">
+          <div class="col text-center skill-box mt-3">
+            <img src="assets/html-5.png" alt="HTML" width="30" height="30">
+            <p class="secondary-txt">HTML</p>
+          </div>
+          <div class="col text-center skill-box mt-3">
+            <img src="assets/css-3.png" alt="CSS" width="30" height="30">
+            <p class="secondary-txt">CSS</p>
+          </div>
+          <div class="col text-center skill-box mt-3">
+            <img src="assets/java-script.png" alt="Java Script" width="30" height="30">
+            <p class="secondary-txt">JAVASCRIPT</p>
+          </div>
+          <div class="col text-center skill-box mt-3">
+            <img src="assets/angular.png" alt="Angular" width="30" height="30">
+            <p class="secondary-txt">ANGULAR</p>
+          </div>
+          <div class="col text-center skill-box mt-3">
+            <img src="assets/react.png" alt="React" width="30" height="30">
+            <p class="secondary-txt">REACT</p>
+          </div>
+          <div class="col text-center skill-box mt-3">
+            <img src="assets/nodejs.png" alt="Node.js" width="30" height="30">
+            <p class="secondary-txt">NODE.JS</p>
+          </div>
+          <div class="col text-center skill-box mt-3">
+            <img src="assets/axpress.png" alt="Express.js" width="30" height="30">
+            <p class="secondary-txt">EXPRESS.JS</p>
+          </div>
+          <div class="col text-center skill-box mt-3">
+            <img src="assets/aws.png" alt="AWS" width="30" height="30">
+            <p class="secondary-txt">AWS</p>
+          </div>
+          <div class="col text-center skill-box mt-3">
+            <img src="assets/github.png" alt="Github" width="30" height="30">
+            <p class="secondary-txt">GITHUB</p>
+          </div>
+        </div>
+
+
+        <!-- 4. Projects Section -->
+
+        <h2 class="primary-txt mb-5 pt-5 mt-3 text-center">Projects</h2>
+        <div class="d-grid gap-5 pt-3" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+          <div class="card card-custom">
+            <img src="assets/to-do-list.avif" class="card-img-top" alt="Interacive To-Do List Application">
+            <div class="card-body">
+              <h5 class="card-title">Interacive To-Do List Application</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+            </div>
+            <div class="card-footer text-end">
+              <a href="#" class="card-link"><i class="bi bi-github me-2"></i>Source Code</a>
+            </div>
+          </div>
+          <div class="card card-custom">
+            <img src="assets/task-management.jpg" class="card-img-top" alt="Task Management SPA">
+            <div class="card-body">
+              <h5 class="card-title">Task Management SPA</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+            </div>
+            <div class="card-footer text-end">
+              <a href="#" class="card-link"><i class="bi bi-github me-2"></i>Source Code</a>
+            </div>
+          </div>
+          <div class="card card-custom">
+            <img src="assets/blog-api.webp" class="card-img-top" alt="Blog API">
+            <div class="card-body">
+              <h5 class="card-title">Blog API with Authentication</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer text-end">
+              <a href="#" class="card-link"><i class="bi bi-github me-2"></i>Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Contact Section -->
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6 py-5 text-center">
+              <h2 class="primary-txt mb-5 pt-3 mt-3 text-center">Let’s Collaborate</h2>
+              <p class="secondary-txt mb-5">I'm currently seeking new opportunities and would love to hear from you. Whether you have a question or just want to say hi, feel free to reach out.</p>
+              
+              <form class="row g-3 mb-3 form-custom">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                </div>
+                <div class="col-md-12">
+                  <textarea class="form-control" id="message" rows="4" placeholder="Write your message..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-custom">Say Hello</button>
+              </form>
+          </div>
+        </div>
+
+        <!-- 6. Footer -->
+
+        <hr class="secondary-txt">
+        <div class="row d-flex justify-content-between mt-4">
+          <div class="col-md-6">
+            <p class="secondary-txt mb-2"> © 2025 Foram Dalwadi All Rights Reserved.</p>
+            <p class="secondary-txt" style="font-size: 14px;">Designed & Built by Foram Dalwadi</p>
+          </div>
+          <div class="col-md-6 text-md-end"> 
+            <p class="secondary-txt mb-0">I’m available at</p>
+            <div class="social-wrapper mb-3">
+               <a href="#"><i class="bi bi-linkedin ms-0 ms-md-3"></i></a>
+               <a href="#"><i class="bi bi-github ms-3"></i></a>
+               <a href="#"><i class="bi bi-envelope-fill ms-3"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+</body>
+</html>
